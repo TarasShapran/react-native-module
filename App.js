@@ -1,15 +1,13 @@
 import {StatusBar} from 'expo-status-bar';
 import React from 'react';
 import {StyleSheet, Text, View} from 'react-native';
-import Users from "./components/users/Users";
 
 export default function App() {
 
 
     return (
         <View style={styles.container}>
-            <Users/>
-
+            <Text> App </Text>
             <StatusBar style="auto"/>
         </View>
     );
