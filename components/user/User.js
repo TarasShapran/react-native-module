@@ -11,6 +11,7 @@ const User = ({item}) => {
         <button onTouchStart={()=>{
             console.log(item)}
         }>details</button>
+
     </View>;
 };
 
