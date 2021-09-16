@@ -3,12 +3,12 @@ import {StyleSheet} from 'react-native';
 import {View, Text, Button, TouchableOpacity} from 'react-native';
 
 
-const Home = () => {
+const Company = () => {
 
     return <View>
-        <Text> Home page </Text>
+        <Text> Company page </Text>
     </View>;
 };
-export default Home;
+export default Company;
 
 let styles = StyleSheet.create({})
